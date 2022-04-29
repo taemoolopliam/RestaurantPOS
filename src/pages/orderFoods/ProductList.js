@@ -1,5 +1,5 @@
 import React from "react";
-import foods from "../../assets/imgs/foods.jpg";
+import foodList from "../../assets/imgs/foodList.jpg";
 import { v4 as uuidv4 } from "uuid";
 
 export default function ProductList() {
@@ -40,13 +40,13 @@ export default function ProductList() {
         {Array.apply(null, Array(24)).map((v) => (
           <div
             key={uuidv4()}
-            className="bg-green-needle-100 w-full px-2 border-green-needle-100 rounded-md  py-2 hover:border-green-needle-500 border-solid cursor-pointer border-2"
+            className="bg-green-needle-50 w-full px-2 border-green-needle-50 rounded-md  py-2 hover:border-green-needle-500 border-solid cursor-pointer border-2"
           >
             <div className=" justify-center flex ">
-              <img src={foods} alt="foods" width={150} height={300} className="rounded-full mx-32 bg-green-400 h-24 w-24" />
+              <img src={foodList} alt="foods" width={96} height={96} className="rounded-full mx-32 bg-green-400 h-24 w-24" />
             </div>
-            <h6 className="text-center mt-2 font-bold text-green-needle-500">ผัดกระเพราเนื้อวัว</h6>
-            <h6 className="text-right text-orange-600 font-bold text-xl -mb-2">60 ฿</h6>
+            <div className="text-center mt-2 font-bold text-green-needle-500">ผัดกระเพราเนื้อวัว</div>
+            <div className="text-right text-orange-600 font-bold text-xl -mb-2">60 ฿</div>
           </div>
         ))}
       </div>

@@ -4,7 +4,7 @@ import data from "./DataOrder.json";
 export default function ManageOrders() {
   return (
     <div className=" bg-white  p-5 rounded-md">
-      <div className="bg-green-needle-100 flex justify-between p-2 rounded-md leading-8  items-center">
+      <div className="bg-green-needle-50 flex justify-between p-2 rounded-md leading-8  items-center">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           className="icon icon-tabler icon-tabler-coin"
@@ -35,18 +35,18 @@ export default function ManageOrders() {
             <div className="flex gap-2">
               <div className="bg-slate-400 h-12 w-12 rounded-md"></div>
               <div>
-                <h6 className="text-green-needle-500 font-bold">{value.name}</h6>
-                <h6 className=" text-gray-600 font-bold">{`${value.price.toLocaleString()} x ${value.qty.toLocaleString()}`}</h6>
+                <div className="text-green-needle-500 font-bold">{value.name}</div>
+                <div className=" text-gray-600 font-bold">{`${value.price.toLocaleString()} x ${value.qty.toLocaleString()}`}</div>
               </div>
             </div>
-            <h5 className="text-green-needle-500 font-bold text-xl">{(value.price * value.qty).toLocaleString()}</h5>
+            <div className="text-green-needle-500 font-bold text-xl">{(value.price * value.qty).toLocaleString()}</div>
           </div>
         ))}
       </div>
       <hr className="mt-5 mb-5" />
       <div className="flex justify-between px-2">
-        <h6 className=" text-orange-600 font-bold">ส่วนลด (บาท)</h6>
-        <h6 className="text-orange-600  font-bold text-xl">80</h6>
+        <div className=" text-orange-700 font-bold">ส่วนลด (บาท)</div>
+        <div className="text-orange-700  font-bold text-xl">80</div>
       </div>
       <button className="mt-10 rounded-md bg-green-needle-500 w-full p-3 text-white text-xl font-bold hover:bg-green-800">
         ชำระเงิน

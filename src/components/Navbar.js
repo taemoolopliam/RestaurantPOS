@@ -6,16 +6,16 @@ export default function Navbar() {
       <div className="flex gap-10  align-middle justify-between">
         <div className="flex gap-10  leading-10 align-middle">
           <div className=" text-center ">
-            <h4 className="text-green-needle-500  text-sm font-bold md:text-lg ">สมปองร้านอาหาร</h4>
-            <h4 className="text-orange-600 text hidden md:block  text-sm -mt-2 font-medium">Sompong Restaurant</h4>
-            <h4 className="text-orange-600 text md:hidden block  text-sm -mt-2 font-medium">Sompong Res..</h4>
+            <div className="text-green-needle-500  text-sm font-bold md:text-lg ">สมปองร้านอาหาร</div>
+            <div className="text-orange-700 text hidden md:block  text-sm -mt-2 font-bold">Sompong Restaurant</div>
+            <div className="text-orange-700 text md:hidden block  text-sm -mt-2 font-bold">Sompong Res..</div>
           </div>
           <div className=" hidden xl:block">
             <ul className=" flex gap-6 leading-10 align-middle text-green-needle-500  font-bold ">
-              <li className="hover:text-orange-600 cursor-pointer">โต๊ะอาหาร</li>
-              <li className="hover:text-orange-600 cursor-pointer">เมนู</li>
-              <li className="hover:text-orange-600 cursor-pointer">ประเภทอาหาร</li>
-              <li className="hover:text-orange-600 cursor-pointer">ตั้งค่า</li>
+              <li className="hover:text-orange-700 cursor-pointer">โต๊ะอาหาร</li>
+              <li className="hover:text-orange-700 cursor-pointer">เมนู</li>
+              <li className="hover:text-orange-700 cursor-pointer">ประเภทอาหาร</li>
+              <li className="hover:text-orange-700 cursor-pointer">ตั้งค่า</li>
             </ul>
           </div>
         </div>

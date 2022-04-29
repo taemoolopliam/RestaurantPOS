@@ -4,6 +4,7 @@ module.exports = {
     extend: {
       colors: {
         "green-needle": {
+          50: "#efefef",
           100: "#cfdfd7",
           500: "#115E38",
         },
