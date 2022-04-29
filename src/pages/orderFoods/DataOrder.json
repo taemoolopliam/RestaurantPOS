@@ -1,0 +1,56 @@
+[
+  {
+    "orderID": 1,
+    "name": "ผัดกระเพรา",
+    "price": 100,
+    "qty": 2
+  },
+  {
+    "orderID": 2,
+    "name": "ผัดพริกแกงทะเล+ไข่ดาว",
+    "price": 300,
+    "qty": 2
+  },
+  {
+    "orderID": 3,
+    "name": "ben 285 signature",
+    "price": 1500,
+    "qty": 2
+  },
+  {
+    "orderID": 4,
+    "name": "น้ำแข็ง",
+    "price": 100,
+    "qty": 4
+  },
+  {
+    "orderID": 5,
+    "name": "โซดา",
+    "price": 50,
+    "qty": 4
+  },
+  {
+    "orderID": 6,
+    "name": "เบียร์ช้าง",
+    "price": 80,
+    "qty": 24
+  },
+  {
+    "orderID": 7,
+    "name": "โซจู",
+    "price": 80,
+    "qty": 10
+  },
+  {
+    "orderID": 8,
+    "name": "ต้มยำทะเลเดือดน้ำข้น",
+    "price": 800,
+    "qty": 1
+  },
+  {
+    "orderID": 9,
+    "name": "ปีกไก่ทอด",
+    "price": 80,
+    "qty": 1
+  }
+]
