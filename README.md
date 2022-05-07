@@ -10,3 +10,6 @@ https://cute-baklava-6543ec.netlify.app/
 ## CSS Framework
 
 tailwindcss
+
+## Results of a web test
+![alt text](https://raw.githubusercontent.com/taemoolopliam/RestaurantPOS/main/perfor.png?raw=true)
