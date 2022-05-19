@@ -11,5 +11,9 @@ https://cute-baklava-6543ec.netlify.app/
 
 tailwindcss
 
-## Results of a web test
+## PageSpeed score 
+<p align="center">
+	<img align="center" src="./pagespeed.svg" width="800px">
+</p>
+
 ![alt text](https://raw.githubusercontent.com/taemoolopliam/RestaurantPOS/main/perfor.png?raw=true)
